@@ -4,9 +4,9 @@ public class Calculator {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Whats the first number?");
-    int fn = sc.nextInt();
+    float fn = sc.nextFloat();
     System.out.println("Whats the next number?");
-    int sn = sc.nextInt();
+    float sn = sc.nextFloat();
 
 boolean option =true;
 int menu;
