@@ -10,10 +10,7 @@ public static void main(String[] args) {
 
 boolean option =true;
 int menu;
-int add = fn + sn;
-int sub = fn - sn;
-int mul = fn * sn;
-int div = fn / sn;
+
 
     while (option) {
         menu = 0;
@@ -27,16 +24,16 @@ int div = fn / sn;
 
     switch (menu) {
         case 1:
-            System.out.println("The answer is: " +add);
+            System.out.println("The answer is: " +(fn +sn ));
             break;
         case 2:
-            System.out.println("The answer is: " +sub);
+            System.out.println("The answer is: " +(fn -sn ));
             break;
         case 3:
-            System.out.println("The answer is: " +mul);
+            System.out.println("The answer is: " +(fn *sn ));
             break;
         case 4:
-            System.out.println("The answer is: " +div);
+            System.out.println("The answer is: " +(fn / sn));
             break;
         case 5:
         option = false;
