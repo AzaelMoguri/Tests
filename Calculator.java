@@ -36,6 +36,7 @@ int menu;
             System.out.println("The answer is: " +(fn / sn));
             break;
         case 5:
+        sc.close();
         option = false;
 
         default:

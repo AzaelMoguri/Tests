@@ -16,5 +16,6 @@ public class Array {
    for(int l=0; l<tam; l++){
     System.out.println("El arreglo queda de la siguiente forma " +array[l]);
    }
+   sc.close();
 }
 }
